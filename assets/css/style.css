@@ -1,1 +1,40 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
+/*NavBar*/
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: royalblue;
+    position: sticky;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+
+.navbar ul li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.navbar ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 8px 25px;
+    transition: all .5s ease;
+}
+
+.navbar ul li a:hover{
+    background-color: grey;
+    color: black;
+    box-shadow: 0 0 10px white;
+}
