@@ -13,4 +13,6 @@ Lastly, when the images of applications are clicked on, then the user is taken t
 
 <img width="1440" alt="Screen Shot 2022-10-24 at 4 16 43 PM" src="https://user-images.githubusercontent.com/109480025/197620581-78595255-feec-48e3-b1cd-e2895c4f7e18.png">
 
-Deployed application: 
+Deployed application: https://nnavg.github.io/nav-portfolio/
+
+Github Repository: https://github.com/nnavg/nav-portfolio
