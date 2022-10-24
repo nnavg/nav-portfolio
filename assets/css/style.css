@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: royalblue;
+    background-color: darkblue;
     position: sticky;
     top: 0;
 }
@@ -21,7 +21,7 @@
 }
 
 .navbar ul li{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size: 1.1rem;
     font-weight: bold;
 }
@@ -38,3 +38,253 @@
     color: black;
     box-shadow: 0 0 10px white;
 }
+
+/* HomeSection */
+
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 1200px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+#home::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 30px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -10%;
+    right: 10%;
+    
+}
+
+.headings{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.btn{
+    padding: 10px 35px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    outline: none;
+    transition: .6s ease;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
+    font-weight: bold;
+}
+
+/* AboutSection */
+
+#about{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px 0px 10px 5px;
+    margin-bottom: 50px;
+}
+
+#pic{
+    display: flex;
+}
+
+#pic img{
+    width: 575px;
+    height: 400px;
+}
+
+.headings{
+    padding: 30px;
+    height: 500px;
+    color: white;
+    
+}
+
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+    color: white;
+}
+
+.intro h2{
+    padding: 25px;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.intro p{
+    padding: 0px 20px 20px 0px;
+    text-align: left;
+    
+}
+
+/* PortfolioSection */
+
+#portfolio{
+    display: flex;
+    background-color: lightslategrey;
+    flex-direction: column;
+    align-items:center;
+    width: 100%;
+    height: 675px;
+
+}
+
+.gallery{
+    display: flex;
+    margin: 100px;
+    
+}
+
+.gallery img{
+    display: flex;
+    width: 450px;
+    height: auto;
+    margin: -30px;
+}
+
+.github{
+    color: blue;
+    font-size: 30px;
+    position: relative;
+    bottom: -50px;
+}
+
+.github:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px green;
+    
+}
+
+.insertimage{
+    align-items: left;
+}
+
+/* ContactSection */
+
+#contact{
+    flex-direction: column;
+    box-sizing: border-box;
+    background-color: darkblue;
+    color: white;
+    padding: 100px;
+    height: 650px;
+    width: 100%;
+    
+}
+
+.cont{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.input{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    border: none;
+    outline: none;
+}
+
+.inputmsg{
+    padding: 12px;
+    margin: 15px;
+    width: 30%;
+    height: 200px;
+}
+
+#send{
+    padding: 10px;
+    width: 10%;
+    margin: 40px;
+    border: none;
+    outline: none;
+}
+
+#send:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px blue;
+}
+
+
+/* Footer */
+
+.thankyou{
+    text-align: center;
+    padding:50px;
+    background-color: lightgray;
+    font-size: 30px;
+    width: 100%;
+}
+
+/* Media query for mobile phones and smaller */
+@media screen and (max-width: 575px){
+    .navbar {
+    width: 100%;
+    }
+
+
+    .headings {
+    width: 95%;
+    }
+
+    .about {
+    width: 100%;    
+    }
+
+    .intro h2 {
+    flex: 0 100%;    
+    }
+
+    .intro p {
+    text-align: center;    
+    }
+
+    .portfolio {
+    flex: 0 100%;
+    }
+
+    .contact {
+    order: 3;    
+    }
+}  
+
+    #background{
+    height: 600px;
+    }
+    
+ 
+   
+
